@@ -29,6 +29,7 @@ listed here:
 - Pandas 2.2.3
 - Pyarrow 17.0.0
 - Numpy 2.1.1
+- Pyarrow 17.0.0
 
 
 ## Folder Structure:
@@ -89,7 +90,9 @@ with a population of 0. These were filtered out of our analysis.
 
 The two data sources `politicians_by_country_AUG.2024.csv` and `population_by_country_AUG.2024.csv`
 are merged using the columns `Geography` and `country`. However, these columns do not map one-to-one.
-For example, there are politicians labeled as "Korean" which does not map to a single country.
+For example, there are politicians labeled as "Korean" which does not map to a single country. For cases,
+where the countries do match but differ due to differences in things like dashes or parenthesis, we
+manually fix these cases.
 
 These countries that do not match one-to-one can be found in `wp_countries-no_match.txt`.
 To counteract this issue we use the fact that the `population_by_country_AUG.2024.csv` is in
