@@ -1,70 +1,26 @@
 ﻿AFRICA
 ASIA
-Andorra
-Australia
-Brunei
-Burma
 CARIBBEAN
 CENTRAL AMERICA
 CENTRAL ASIA
-Canada
-China (Hong Kong SAR)
-China (Macao SAR)
-Cote d'Ivoire
-Curacao
-Côte d’Ivoire
-Denmark
-Dominica
 EAST ASIA
 EASTERN AFRICA
 EASTERN EUROPE
 EUROPE
-Fiji
-French Guiana
-French Polynesia
-Georgia
-Guadeloupe
-Guam
-Iceland
-Ireland
-Jamaica
-Kiribati
-Korea (North)
+Guinea-Bissau
 Korean
 LATIN AMERICA AND THE CARIBBEAN
-Liechtenstein
 MIDDLE AFRICA
-Martinique
-Mauritius
-Mayotte
-Mexico
-Myanmar
 NORTHERN AFRICA
 NORTHERN AMERICA
 NORTHERN EUROPE
-Nauru
-Netherlands
-New Caledonia
-New Zealand
 OCEANIA
-Palau
-Philippines
-Puerto Rico
-Reunion
-Romania
 SOUTH AMERICA
 SOUTH ASIA
 SOUTHEAST ASIA
 SOUTHERN AFRICA
 SOUTHERN EUROPE
-San Marino
-Sao Tome and Principe
-Suriname
-United Kingdom
-United States
 WESTERN AFRICA
 WESTERN ASIA
 WESTERN EUROPE
 WORLD
-Western Sahara
-eSwatini

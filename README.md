@@ -83,6 +83,20 @@ These intermediary files are used to assemble the two final data sets `wp_countr
 the two source files. The latter being a csv which holds data on article title, quality and its associated region, country,
 and population.
 
+## Data Issues
+In the original data set, there were some countries that were listed
+with a population of 0. These were filtered out of our analysis.
+
+The two data sources `politicians_by_country_AUG.2024.csv` and `population_by_country_AUG.2024.csv`
+are merged using the columns `Geography` and `country`. However, these columns do not map one-to-one.
+For example, there are politicians labeled as "Korean" which does not map to a single country.
+
+These countries that do not match one-to-one can be found in `wp_countries-no_match.txt`.
+To counteract this issue we use the fact that the `population_by_country_AUG.2024.csv` is in
+a hierarchical order by region. For our data set found in `wp_politicians_by_country.csv`, we implement
+a hierarchical merge which merges the country to its lowest hierarchical region.
+
+
 # Research Implications
 In our analysis we created six tables which displayed the top and bottom 10 countries as well as regions
 by coverage and quality. High Quality articles were defined to have a classification of "FA" or "GA" in the ORES
