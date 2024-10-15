@@ -84,6 +84,47 @@ These intermediary files are used to assemble the two final data sets `wp_countr
 the two source files. The latter being a csv which holds data on article title, quality and its associated region, country,
 and population.
 
+## Data Schema
+This section is dedicated to mapping out the schema of the intermediary and final dataset used in the
+analysis.
+
+All intermediary data and datasets in .csv come in the form of "dataframe-like" format.
+`politician_page_data.csv` has the columns:
+- pageid
+- ns
+- title
+- contentmodel
+- pagelanguage
+- pagelanguagehtmlcode
+- pagelanguagedir
+- touched
+- lastrevid
+- length
+- watchers
+- talkid
+- fullurl
+- editurl
+- canonicalurl
+
+`articlequalty.csv` has the columns:
+- revid
+- prediction
+- probability_B
+- probability_C
+- probability_FA
+- probability_GA
+- probability_Start
+- probability_Stub
+
+`wp_politicians_by_country.csv` has the columns:
+- country
+- region
+- population
+- article_title
+- revision_id
+- article_quality
+
+
 ## Data Issues
 In the original data set, there were some countries that were listed
 with a population of 0. These were filtered out of our analysis.
