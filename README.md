@@ -205,9 +205,8 @@ politicians from non-western nations that were not politically relevant in the w
 2. What (potential) sources of bias did you discover in the course of your data processing and analysis?
 
 In the course of the processing and analysis, I found that there could be some bias when it came to representing
-countries with larger populations. I also found that there could be bias in article quality based on the country
-as wealther nations may have greater article counts / higher quality articles. Lastly, the data on English Wikipedia
-only gives us what English speakers have created and edited which may leave out other important figures who have
+countries with larger populations. Lastly, the data on English Wikipedia  only gives us what English speakers have 
+created and edited which may leave out other important figures who have
 pages in non-english pages only.
 
 3. What might your results suggest about (English) Wikipedia as a data source?
