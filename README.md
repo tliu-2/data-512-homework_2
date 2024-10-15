@@ -188,14 +188,6 @@ A bias, that was touched on a bit earlier, is the idea of population size and re
 As we pointed out earlier, China only has 16 politicians represented out of 1.4 billion people while the 
 Marshall Islands had 13 politicians with 100,000 people.
 
-Another potential bias that may be present is that more prominent or wealthier countries may see greater
-instances of high quality articles. We can somewhat see this in our last table where we rank the countries
-by quality-per-capita and observe that the top couple of countries are wealthier nations or prominent nations.
-(even Gabon which one may not initially be associated as "wealthy" nation is one of the wealthiest nations in Africa)
-While the countries at the bottom are generally countries in economic crisis (e.g. Zimbabwe) or experiencing great
-poverty (e.g. Yeman [which is one of the poorest in the Middle East / Africa area](https://www.usaid.gov/yemen/economic-growth-and-trade)).
-This perhaps represents underrepresentation from these nations as there may be fewer contributors from these nations.
-
 Lastly, a potential bias is that we're working with data from the English Wikipedia. There may be politician pages
 that are not present on the English Wikipedia and may only be in another language. This would make our data
 bias towards what English speakers would deem "important enough" to create a Wikipedia page about.
